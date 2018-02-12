@@ -1,0 +1,20 @@
+<!--pages/weather/weatherVC.wxml-->
+<import src='weatherTemplate.wxml'/>
+<view class='weather-header'>
+  <text>{{wendu}}</text>
+  <view class='weather-header-top'>
+    <text>{{today.type}}</text>
+    <text>{{today.fengxiang}}</text>
+    <text>{{today.fengli}}</text>
+  </view>
+  <text class='ganmao'>{{ganmao}}</text>
+  <view class='city'>
+    <text>{{city}}</text>
+  </view>
+</view>
+<view class='weather-body'>
+  <block wx:for="{{forecast}}" wx:for-item="forecast_oneday">
+    <template is="weatherTemplate" data="{{...forecast_oneday}}" />
+  </block>
+
+</view>

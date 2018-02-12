@@ -1,0 +1,35 @@
+/* pages/weather/weatherVC.wxss */
+@import 'weatherTemplate.wxss';
+.weather-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px salmon;
+  background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1518370667783&di=f7b9bb76b6dd6b3407cee2f5aa1354e7&imgtype=0&src=http%3A%2F%2Fimg05.tooopen.com%2Fimages%2F20150623%2Ftooopen_sy_131623443114.jpg");
+}
+
+.weather-header-top {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.ganmao{
+  text-indent: 2em;
+}
+.weather-header-top text {
+  margin-left: 5px;
+}
+
+.city {
+  width: 100%;
+}
+
+.city text {
+  float: right;
+  margin-right: 10px;
+}
+
+.weather-body{
+  display: flex;
+  flex-direction: row;
+}

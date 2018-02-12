@@ -1,0 +1,10 @@
+
+<template name="btnTemplate">
+  <view class='btnTemplate-container'>
+    <block wx:for="{{btnItem.row}}" wx:for-item="btn">
+      <view class='btnTemplate-btn-container'>
+        <text class='btn-name'>{{btn.btnName}}</text>
+      </view>
+    </block>
+  </view>
+</template>

@@ -1,0 +1,9 @@
+.btnTemplate-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.btnTemplate-btn-container{
+ flex: 1;
+}

@@ -1,0 +1,10 @@
+<template name="weatherTemplate">
+  <view class='weatherTemplate-container'>
+    <text>{{date}}</text>
+    <text>{{type}}</text>
+    <text>{{fengxiang}}</text>
+    <text>{{fengli}}</text>
+    <text>{{low}}</text>
+    <text>{{high}}</text>
+  </view>
+</template>
